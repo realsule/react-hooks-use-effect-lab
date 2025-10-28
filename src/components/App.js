@@ -23,7 +23,7 @@ function App() {
     <main>
       <section>
         {currentQuestion ? (
-          <Question
+          <QuestionZ
             question={currentQuestion}
             onAnswered={handleQuestionAnswered}
           />
